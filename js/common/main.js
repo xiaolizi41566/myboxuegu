@@ -27,8 +27,11 @@ require.config({
 
         //第三方模块
         jquery:'lib/jquery/jquery.min',
-        bootstrap:'lib/bootstrap/js/bootstrap.min'
+        bootstrap:'lib/bootstrap/js/bootstrap.min',
+        jquery_form:'lib/jquery-form/jquery.form',
     },
+
+    //普通模块的依赖
     shim:{
         bootstrap:{
             deps:['jquery']
